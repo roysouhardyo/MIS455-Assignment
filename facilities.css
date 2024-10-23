@@ -1,0 +1,47 @@
+.inner {
+  width: 480px;
+  height: 450px;
+  background-color: #cc9ff9;
+  margin: 20px;
+  box-shadow: 6px 6px 15px black;
+  border-radius: 10px;
+}
+.inner:hover {
+  background-color: #007bff;
+  transition: 0.5s;
+}
+
+body {
+  display: flex;
+}
+img {
+  padding-top: 5px;
+  width: 270px;
+  height: 150px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+}
+.text {
+  padding-left: 5px;
+  padding-right: 5px;
+  word-wrap: break-word;
+  font-style: italic;
+}
+.back-button {
+  padding: 5px 5px;
+  font-size: 15px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 80px;
+  text-align: center;
+  margin-left: 18px;
+}
+
+.back-button:hover {
+  background-color: #0056b3; /* Change color on hover */
+}

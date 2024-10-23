@@ -1,0 +1,31 @@
+img {
+  width: 200px;
+  height: 150px;
+  border-radius: 20px;
+  padding: 10px;
+}
+.back-button {
+  padding: 5px 5px;
+  font-size: 15px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 80px;
+  text-align: center;
+  margin-left: 1px;
+}
+
+.back-button:hover {
+  background-color: #0056b3; /* Change color on hover */
+}
+body {
+  margin-left: 20px;
+  background-color: lightgrey;
+}
+.text {
+  margin-left: 10px;
+  color: rgb(18, 18, 19);
+}

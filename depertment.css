@@ -1,0 +1,50 @@
+.inner {
+  width: 480px;
+  height: 300px;
+  background-color: #007bff;
+  margin: 20px;
+  box-shadow: 6px 6px 15px black;
+  border-radius: 10px;
+}
+.inner:hover {
+  background-color: #6ae4ec;
+  transition: 0.5s;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 10px;
+  background-color: rgb(203, 238, 243);
+}
+.back-button {
+  padding: 5px 5px;
+  font-size: 15px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 80px;
+  text-align: center;
+  margin-left: 18px;
+}
+
+.back-button:hover {
+  background-color: #0056b3; /* Change color on hover */
+}
+
+img {
+  padding-top: 5px;
+  width: 200px;
+  height: 150px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.text {
+  padding-left: 10px;
+  padding-right: 10px;
+  word-wrap: break-word;
+  margin-left: 2px;
+}
