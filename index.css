@@ -34,10 +34,6 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #555;
 }
-
-/* Active tab (Home) */
-nav ul li a.active {
-  background-color: #00c07f;
-  color: white;
-  font-weight: bold;
+.home {
+  color: #0bc788;
 }
