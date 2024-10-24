@@ -18,7 +18,7 @@ img {
   transition: background-color 0.3s;
   width: 80px;
   text-align: center;
-  margin-left: 18px;
+  margin-left: 1px;
 }
 
 .back-button:hover {
@@ -26,4 +26,6 @@ img {
 }
 body {
   background-color: rgba(169, 250, 250, 0.445);
+  margin-left: 20px;
+  margin-top: 20px;
 }

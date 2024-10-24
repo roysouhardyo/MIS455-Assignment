@@ -5,9 +5,28 @@ img {
 }
 .text {
   font-family: "Trirong", serif;
-  font-size: large;
+  font-family: Verdana, sans-serif;
   text-align: justify;
 }
 body {
   background-color: rgb(214, 214, 190);
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.back-button {
+  padding: 5px 5px;
+  font-size: 15px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 80px;
+  text-align: center;
+  margin-left: 1px;
+}
+
+.back-button:hover {
+  background-color: #0056b3; /* Change color on hover */
 }
