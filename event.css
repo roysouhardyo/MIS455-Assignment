@@ -1,0 +1,13 @@
+img {
+  height: 200px;
+  width: 500px;
+  border-radius: 10px;
+}
+.text {
+  font-family: "Trirong", serif;
+  font-size: large;
+  text-align: justify;
+}
+body {
+  background-color: rgb(214, 214, 190);
+}

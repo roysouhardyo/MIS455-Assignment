@@ -1,13 +1,13 @@
 .inner {
   width: 480px;
   height: 400px;
-  background-color: #007bff;
+  background-color: #95beeb;
   margin: 20px;
   box-shadow: 6px 6px 15px black;
   border-radius: 10px;
 }
 .inner:hover {
-  background-color: #6ae4ec;
+  background-color: #ca7fe0;
   transition: 0.5s;
 }
 
@@ -15,7 +15,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two columns */
   gap: 10px;
-  background-color: rgb(203, 238, 243);
+  background-color: rgb(190, 208, 211);
 }
 .back-button {
   padding: 5px 5px;
@@ -47,4 +47,5 @@ img {
   padding-right: 10px;
   word-wrap: break-word;
   margin-left: 2px;
+  text-align: justify;
 }

@@ -7,7 +7,7 @@
   border-radius: 10px;
 }
 .inner:hover {
-  background-color: #007bff;
+  background-color: #62dfdf;
   transition: 0.5s;
 }
 
@@ -26,7 +26,7 @@ img {
   padding-left: 5px;
   padding-right: 5px;
   word-wrap: break-word;
-  font-style: italic;
+  text-align: justify;
 }
 .back-button {
   padding: 5px 5px;
